@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1200px) {
+    .row {
+        width: 100%;
+        padding: 0 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+ 
+    html {
+        font-size: 50%;
+    }
+
+    .row .col-md-1 {
+        width: calc(1 * ((100% - 11 * var(--horizontal-gutter)) / 12));
+    }
+    
+    .row .col-md-2 {
+        width: calc(2 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + var(--horizontal-gutter));
+    }
+    
+    .row .col-md-3 {
+        width: calc(3 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 2 * var(--horizontal-gutter));
+    }
+    
+    .row .col-md-4 {
+        width: calc(4 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 3 * var(--horizontal-gutter));
+    }
+    
+    .row .col-md-5 {
+        width: calc(5 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 4 * var(--horizontal-gutter));
+    }
+    
+    .row .col-md-6 {
+        width: calc(6 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 5 * var(--horizontal-gutter));
+    }
+    
+    .row .col-md-7 {
+        width: calc(7 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 6 * var(--horizontal-gutter));
+    }
+    
+    .row .col-md-8 {
+        width: calc(8 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 7 * var(--horizontal-gutter));
+    }
+    
+    .row .col-md-9 {
+        width: calc(9 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 8 * var(--horizontal-gutter));
+    }
+    
+    .row .col-md-10 {
+        width: calc(10 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 9 * var(--horizontal-gutter));
+    }
+    
+    .row .col-md-11 {
+        width: calc(11 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 10 * var(--horizontal-gutter));
+    }
+    
+    .row .col-md-12 {
+        width: 100%;
+    }
+
+
+    .padding-right-md-0 {
+        padding-right: 0;
+    }
+
+    .padding-bottom-md-4 {
+        padding-bottom: 4rem;
+    }
+
+    .margin-top-md-3 {
+        margin-top: 3rem;
+    }
+
+    .margin-bottom-md-4 {
+        margin-bottom: 4rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+   
+    .filter-table .works .item {
+        width: 50%;
+    }
+
+    .selfimage{
+        display: none;
+    }
+
+    .site-menu {
+        display: none;
+    }
+
+    .toggle-menu {
+        display: inline-block;
+    }
+
+   
+    .banner {
+        height: 80vh;
+    }
+
+}
+
+
+@media only screen and (max-width: 550px) {
+    
+    .row .col-sm-1 {
+        width: calc(1 * ((100% - 11 * var(--horizontal-gutter)) / 12));
+    }
+    
+    .row .col-sm-2 {
+        width: calc(2 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-3 {
+        width: calc(3 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 2 * var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-4 {
+        width: calc(4 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 3 * var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-5 {
+        width: calc(5 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 4 * var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-6 {
+        width: calc(6 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 5 * var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-7 {
+        width: calc(7 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 6 * var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-8 {
+        width: calc(8 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 7 * var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-9 {
+        width: calc(9 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 8 * var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-10 {
+        width: calc(10 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 9 * var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-11 {
+        width: calc(11 * ((100% - 11 * var(--horizontal-gutter)) / 12 ) + 10 * var(--horizontal-gutter));
+    }
+    
+    .row .col-sm-12 {
+        width: 100%;
+    }
+    .selfimage{
+        display: none;
+    }
+
+    #about {
+        padding-bottom: 8rem;
+    }
+
+   
+    .filter-table .filters {
+        flex-flow: column;
+    }
+
+    .filter-table .filters li:not(:last-child) {
+        margin: 0 0 2rem 0;
+    }
+
+    .filter-table .works .item {
+        width: 100%;
+    }
+
+
+    .testimonial-slider .testimony {
+        flex-flow: column;
+    }
+}
