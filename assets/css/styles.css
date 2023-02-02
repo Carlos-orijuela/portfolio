@@ -174,7 +174,6 @@ button {
     display: flex;
     right: 20%;
     top: 10%;
-    position:sticky;
     position: absolute;
     
 }
