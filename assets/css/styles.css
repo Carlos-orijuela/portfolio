@@ -471,6 +471,7 @@ ul.social-icons a:hover {
     padding: 8rem 0 20rem 0;
     background-color: var(--darker);
     color: var(--gray);
+    position:relative;
 }
 
 footer {
